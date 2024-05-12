@@ -19,7 +19,7 @@ namespace LocaMoto.API.Controllers
         private readonly IMotorcycleApplicationService _motorcycleApplicationService = motorcycleApplicationService;
 
         /// <summary>
-        /// This endpoint is responsible for inserting a new customer into the database
+        /// This endpoint is responsible for inserting a new motorcyle into the database
         /// </summary>
         /// <param name="motorcycleRequestDto"></param>
         /// <param name="validator"></param>
@@ -53,7 +53,7 @@ namespace LocaMoto.API.Controllers
         }
 
         /// <summary>
-        /// This endpoint is responsible for updating a customer in the database
+        /// This endpoint is responsible for updating a motorcycle in the database
         /// </summary>
         /// <param name="motorcycleRequestDto"></param>
         /// <param name="cancellationToken"></param>        
@@ -88,7 +88,7 @@ namespace LocaMoto.API.Controllers
         }
 
         /// <summary>
-        /// This endpoint is responsible for deleting a customer from the database
+        /// This endpoint is responsible for deleting a motorcycle from the database
         /// </summary>
         /// <param name="id"></param>
         /// <param name="cancellationToken"></param>        
@@ -115,7 +115,7 @@ namespace LocaMoto.API.Controllers
         }
 
         /// <summary>
-        /// This endpoint is responsible for listing all customers from the database
+        /// This endpoint is responsible for listing all motorcycle from the database
         /// </summary>        
         /// <param name="cancellationToken"></param>        
         [HttpGet("Listar")]

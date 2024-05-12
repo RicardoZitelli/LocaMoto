@@ -3,10 +3,7 @@ using LocaMoto.Application.DTOs.Requests;
 using LocaMoto.Application.DTOs.Responses;
 using LocaMoto.Application.Interfaces;
 using LocaMoto.Domain.Entities;
-using LocaMoto.Domain.Events;
 using LocaMoto.Domain.Interfaces.Services;
-using LocaMoto.Domain.Services;
-using MediatR;
 
 namespace LocaMoto.Application.Services
 {
@@ -121,6 +118,6 @@ namespace LocaMoto.Application.Services
                 return true;
 
             return false;
-        }
+        }               
     }
 }

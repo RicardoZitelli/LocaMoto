@@ -1,5 +1,6 @@
 ﻿using LocaMoto.Application.DTOs.Requests;
 using LocaMoto.Application.DTOs.Responses;
+using LocaMoto.Domain.Entities;
 
 namespace LocaMoto.Application.Interfaces
 {
@@ -10,6 +11,6 @@ namespace LocaMoto.Application.Interfaces
         Task DeleteAsync(Guid id, CancellationToken cancellationToken);
         Task<MotorcycleResponseDto> GetByIdAsync(Guid id, CancellationToken cancellationToken);
         Task<IEnumerable<MotorcycleResponseDto>> FindByLicensePlateAsync(string description, CancellationToken cancellationToken);
-        Task<IEnumerable<MotorcycleResponseDto>> GetAllAsync(CancellationToken cancellationToken);
+        Task<IEnumerable<MotorcycleResponseDto>> GetAllAsync(CancellationToken cancellationToken);        
     }
 }

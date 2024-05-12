@@ -11,6 +11,9 @@ namespace LocaMoto.Application.Mapping
         {
             CreateMap<MotorcycleRequestDto, Motorcycle>();
             CreateMap<Motorcycle, MotorcycleResponseDto>();
+
+            CreateMap<UserRequestDto, User>();
+            CreateMap<User, UserResponseDto>();
         }
     }
 }

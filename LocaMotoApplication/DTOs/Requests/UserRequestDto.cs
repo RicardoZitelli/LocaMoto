@@ -1,4 +1,4 @@
 ﻿namespace LocaMoto.Application.DTOs.Requests
 {
-    public record UserRequestDto(string User, string Password);    
+    public record UserRequestDto(Guid Id, string UserEmail, string Password, string Role);    
 }

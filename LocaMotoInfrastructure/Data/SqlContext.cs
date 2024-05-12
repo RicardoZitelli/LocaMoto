@@ -7,6 +7,7 @@ namespace LocaMoto.Infrastructure.Data
     public sealed class SqlContext(DbContextOptions<SqlContext> options) : DbContext(options)
     {
         public DbSet<Motorcycle>? Motorcycle { get; set; }
+        public DbSet<User>? User { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

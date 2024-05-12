@@ -29,7 +29,12 @@ namespace LocaMoto.Infrastructure.Crosscutting.IOC
             builder
                 .RegisterType<MotorcyleRequestDtoValidator>()
                 .As<IValidator<MotorcycleRequestDto>>()
-                .InstancePerLifetimeScope();                        
+                .InstancePerLifetimeScope();
+
+            builder
+               .RegisterType<UserRequestDtoValidator>()
+               .As<IValidator<UserRequestDto>>()
+               .InstancePerLifetimeScope();
         }
 
         private static void ConfigureApplication(ContainerBuilder builder)
@@ -37,6 +42,11 @@ namespace LocaMoto.Infrastructure.Crosscutting.IOC
             builder
                 .RegisterType<MotorcycleApplicationService>()
                 .As<IMotorcycleApplicationService>()
+                .InstancePerLifetimeScope();
+
+            builder
+                .RegisterType<UserApplicationService>()
+                .As<IUserApplicationService>()
                 .InstancePerLifetimeScope();
         }
 
@@ -46,6 +56,11 @@ namespace LocaMoto.Infrastructure.Crosscutting.IOC
                 .RegisterType<MotorcycleService>()
                 .As<IMotorcycleService>()
                 .InstancePerLifetimeScope();
+
+            builder
+               .RegisterType<UserService>()
+               .As<IUserService>()
+               .InstancePerLifetimeScope();
         }
 
         private static void ConfigureRepositories(ContainerBuilder builder)
@@ -53,6 +68,11 @@ namespace LocaMoto.Infrastructure.Crosscutting.IOC
             builder
                   .RegisterType<MotorcycleRepository>()
                   .As<IMotorcycleRepository>()
+                  .InstancePerLifetimeScope();
+
+            builder
+                  .RegisterType<UserRepository>()
+                  .As<IUserRepository>()
                   .InstancePerLifetimeScope();
         }
     }
