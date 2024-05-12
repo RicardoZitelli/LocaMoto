@@ -1,8 +1,8 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
-using LocaMotoApplication.Mapping;
-using LocaMotoInfrastructure.Crosscutting.IOC;
-using LocaMotoInfrastructure.Data;
+using LocaMoto.Application.Mapping;
+using LocaMoto.Infrastructure.Crosscutting.IOC;
+using LocaMoto.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using System.Text;

@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
-using LocaMotoApplication.DTOs.Requests;
+using LocaMoto.Application.DTOs.Requests;
 
 
-namespace LocaMotoApplication.Validator
+namespace LocaMoto.Application.Validator
 {
     public class MotorcyleRequestDtoValidator: AbstractValidator<MotorcycleRequestDto>
     {

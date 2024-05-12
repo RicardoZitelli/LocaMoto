@@ -1,6 +1,6 @@
-﻿using LocaMotoDomain.Entities;
+﻿using LocaMoto.Domain.Entities;
 
-namespace LocaMotoDomain.Interfaces.Repositories
+namespace LocaMoto.Domain.Interfaces.Repositories
 {
     public interface IMotorcycleRepository : IGenericRepository<Motorcycle>
     {

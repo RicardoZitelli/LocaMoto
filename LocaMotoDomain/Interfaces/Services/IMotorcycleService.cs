@@ -1,6 +1,6 @@
-﻿using LocaMotoDomain.Entities;
+﻿using LocaMoto.Domain.Entities;
 
-namespace LocaMotoDomain.Interfaces.Services
+namespace LocaMoto.Domain.Interfaces.Services
 {
     public interface IMotorcycleService : IGenericService<Motorcycle>
     {

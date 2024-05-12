@@ -1,7 +1,7 @@
-﻿using LocaMotoDomain.Interfaces.Repositories;
-using LocaMotoDomain.Interfaces.Services;
+﻿using LocaMoto.Domain.Interfaces.Repositories;
+using LocaMoto.Domain.Interfaces.Services;
 
-namespace LocaMotoDomain.Services
+namespace LocaMoto.Domain.Services
 {
     public class GenericService<TEntity>(IGenericRepository<TEntity> repositoryBase) : IGenericService<TEntity> where TEntity : class
     {        

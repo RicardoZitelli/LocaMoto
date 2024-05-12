@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LocaMotoDomain\LocaMotoDomain.csproj" />
+    <ProjectReference Include="..\LocaMotoDomain\LocaMoto.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,7 +1,7 @@
-﻿using LocaMotoDomain.Entities;
+﻿using LocaMoto.Domain.Entities;
 using MediatR;
 
-namespace LocaMotoDomain.Events
+namespace LocaMoto.Domain.Events
 {
     public class MotorcycleRegisteredEvent(Motorcycle motorcycle) : INotification
     {

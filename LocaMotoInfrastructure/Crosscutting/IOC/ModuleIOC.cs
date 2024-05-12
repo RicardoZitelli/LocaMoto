@@ -1,7 +1,7 @@
 ﻿
 using Autofac;
 
-namespace LocaMotoInfrastructure.Crosscutting.IOC
+namespace LocaMoto.Infrastructure.Crosscutting.IOC
 {
     public sealed class ModuleIOC : Module
     {

@@ -1,8 +1,8 @@
-﻿using LocaMotoDomain.Entities;
+﻿using LocaMoto.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace LocaMotoInfrastructure.Data
+namespace LocaMoto.Infrastructure.Data
 {
     public sealed class SqlContext(DbContextOptions<SqlContext> options) : DbContext(options)
     {

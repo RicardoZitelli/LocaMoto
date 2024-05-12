@@ -1,8 +1,9 @@
 ﻿using AutoMapper;
-using LocaMotoApplication.DTOs.Requests;
-using LocaMotoApplication.DTOs.Responses;
-using LocaMotoDomain.Entities;
-namespace LocaMotoApplication.Mapping
+using LocaMoto.Application.DTOs.Requests;
+using LocaMoto.Application.DTOs.Responses;
+using LocaMoto.Domain.Entities;
+
+namespace LocaMoto.Application.Mapping
 {
     public class MappingProfile : Profile
     {

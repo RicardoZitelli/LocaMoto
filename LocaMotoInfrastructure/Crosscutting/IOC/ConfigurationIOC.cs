@@ -1,15 +1,15 @@
 ﻿using Autofac;
 using FluentValidation;
-using LocaMotoApplication.DTOs.Requests;
-using LocaMotoApplication.Interfaces;
-using LocaMotoApplication.Services;
-using LocaMotoApplication.Validator;
-using LocaMotoDomain.Interfaces.Repositories;
-using LocaMotoDomain.Interfaces.Services;
-using LocaMotoDomain.Services;
-using LocaMotoInfrastructure.Data.Repositories;
+using LocaMoto.Application.DTOs.Requests;
+using LocaMoto.Application.Interfaces;
+using LocaMoto.Application.Services;
+using LocaMoto.Application.Validator;
+using LocaMoto.Domain.Interfaces.Repositories;
+using LocaMoto.Domain.Interfaces.Services;
+using LocaMoto.Domain.Services;
+using LocaMoto.Infrastructure.Data.Repositories;
 
-namespace LocaMotoInfrastructure.Crosscutting.IOC
+namespace LocaMoto.Infrastructure.Crosscutting.IOC
 {
     public class ConfigurationIOC
     {

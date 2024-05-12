@@ -24,8 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LocaMotoApplication\LocaMotoApplication.csproj" />
-    <ProjectReference Include="..\LocaMotoInfrastructure\LocaMotoInfrastructure.csproj" />
+    <ProjectReference Include="..\LocaMotoApplication\LocaMoto.Application.csproj" />
+    <ProjectReference Include="..\LocaMotoInfrastructure\LocaMoto.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>

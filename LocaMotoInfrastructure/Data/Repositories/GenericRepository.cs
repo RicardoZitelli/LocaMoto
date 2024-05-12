@@ -1,7 +1,7 @@
-﻿using LocaMotoDomain.Interfaces.Repositories;
+﻿using LocaMoto.Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace LocaMotoInfrastructure.Data.Repositories
+namespace LocaMoto.Infrastructure.Data.Repositories
 {
     public class GenericRepository<TEntity>(SqlContext sqlContext) : IGenericRepository<TEntity> where TEntity : class
     {

@@ -1,12 +1,12 @@
 ﻿using FluentValidation;
 using LocaMoto.Validator;
-using LocaMotoApplication.DTOs.Requests;
-using LocaMotoApplication.DTOs.Responses;
-using LocaMotoApplication.Interfaces;
+using LocaMoto.Application.DTOs.Requests;
+using LocaMoto.Application.DTOs.Responses;
+using LocaMoto.Application.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LocaMoto.Controllers
+namespace LocaMoto.API.Controllers
 {
     /// <summary>
     /// Controller used for inserting, updating, deleting, retrieving, and listing motorcycle data

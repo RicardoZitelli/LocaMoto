@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LocaMotoDomain.Entities
+namespace LocaMoto.Domain.Entities
 {
     public sealed class Motorcycle
     {

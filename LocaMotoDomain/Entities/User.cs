@@ -1,4 +1,4 @@
-﻿namespace LocaMotoDomain.Entities
+﻿namespace LocaMoto.Domain.Entities
 {
     public class User
     {

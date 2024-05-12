@@ -1,8 +1,8 @@
-﻿using LocaMotoDomain.Entities;
-using LocaMotoDomain.Interfaces.Repositories;
+﻿using LocaMoto.Domain.Entities;
+using LocaMoto.Domain.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 
-namespace LocaMotoInfrastructure.Data.Repositories
+namespace LocaMoto.Infrastructure.Data.Repositories
 {
     public class MotorcycleRepository(SqlContext sqlContext) : GenericRepository<Motorcycle>(sqlContext), IMotorcycleRepository
     {

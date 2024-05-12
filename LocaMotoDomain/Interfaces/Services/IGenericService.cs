@@ -1,4 +1,4 @@
-﻿namespace LocaMotoDomain.Interfaces.Services
+﻿namespace LocaMoto.Domain.Interfaces.Services
 {
     public interface IGenericService<TEntity> where TEntity : class
     {

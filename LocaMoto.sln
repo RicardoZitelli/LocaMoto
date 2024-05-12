@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMoto", "LocaMoto\LocaMoto.csproj", "{7633053A-12C3-49EF-9441-ACD34709BBB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMoto.API", "LocaMoto\LocaMoto.API.csproj", "{7633053A-12C3-49EF-9441-ACD34709BBB8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-API", "01-API", "{4E5649EC-79F4-4FE2-A38A-4DF540C85E73}"
 EndProject
@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Domain", "03-Domain", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Infrastructure", "04-Infrastructure", "{7C48EB27-70C0-457E-B357-0116888A5773}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMotoApplication", "LocaMotoApplication\LocaMotoApplication.csproj", "{E98FBC79-70F3-4009-B6BE-EBC6A4DEFAEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMoto.Application", "LocaMotoApplication\LocaMoto.Application.csproj", "{E98FBC79-70F3-4009-B6BE-EBC6A4DEFAEB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMotoDomain", "LocaMotoDomain\LocaMotoDomain.csproj", "{1FFA077F-5D4A-4584-A7D4-0551376C201E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMoto.Domain", "LocaMotoDomain\LocaMoto.Domain.csproj", "{1FFA077F-5D4A-4584-A7D4-0551376C201E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMotoInfrastructure", "LocaMotoInfrastructure\LocaMotoInfrastructure.csproj", "{36AB774C-09B5-427D-85DE-B1B98E02E4AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocaMoto.Infrastructure", "LocaMotoInfrastructure\LocaMoto.Infrastructure.csproj", "{36AB774C-09B5-427D-85DE-B1B98E02E4AE}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D84ABC14-19F1-4990-970F-3512CF0DA997}"
 EndProject

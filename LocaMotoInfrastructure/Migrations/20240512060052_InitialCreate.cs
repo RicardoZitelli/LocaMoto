@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace LocaMotoInfrastructure.Migrations
+namespace LocaMoto.Infrastructure.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration

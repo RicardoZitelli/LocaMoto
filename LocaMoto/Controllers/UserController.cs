@@ -1,4 +1,4 @@
-﻿using LocaMotoApplication.DTOs.Requests;
+﻿using LocaMoto.Application.DTOs.Requests;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
@@ -6,7 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace LocaMoto.Controllers
+namespace LocaMoto.API.Controllers
 { /// <summary>
   /// Controller de autenticação
   /// </summary>

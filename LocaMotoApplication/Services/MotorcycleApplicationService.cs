@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
-using LocaMotoApplication.DTOs.Requests;
-using LocaMotoApplication.DTOs.Responses;
-using LocaMotoApplication.Interfaces;
-using LocaMotoDomain.Entities;
-using LocaMotoDomain.Events;
-using LocaMotoDomain.Interfaces.Services;
-using LocaMotoDomain.Services;
+using LocaMoto.Application.DTOs.Requests;
+using LocaMoto.Application.DTOs.Responses;
+using LocaMoto.Application.Interfaces;
+using LocaMoto.Domain.Entities;
+using LocaMoto.Domain.Events;
+using LocaMoto.Domain.Interfaces.Services;
+using LocaMoto.Domain.Services;
 using MediatR;
 
-namespace LocaMotoApplication.Services
+namespace LocaMoto.Application.Services
 {
     public sealed class MotorcycleApplicationService(IMotorcycleService motorcycleService,
         IMapper mapper) : IMotorcycleApplicationService

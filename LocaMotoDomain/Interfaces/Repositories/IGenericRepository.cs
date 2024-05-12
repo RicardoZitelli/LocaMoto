@@ -1,4 +1,4 @@
-﻿namespace LocaMotoDomain.Interfaces.Repositories
+﻿namespace LocaMoto.Domain.Interfaces.Repositories
 {
     public interface IGenericRepository<TEntity> where TEntity : class
     {

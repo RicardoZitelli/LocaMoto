@@ -1,7 +1,7 @@
-﻿using LocaMotoApplication.DTOs.Requests;
-using LocaMotoApplication.DTOs.Responses;
+﻿using LocaMoto.Application.DTOs.Requests;
+using LocaMoto.Application.DTOs.Responses;
 
-namespace LocaMotoApplication.Interfaces
+namespace LocaMoto.Application.Interfaces
 {
     public interface IMotorcycleApplicationService
     {        
