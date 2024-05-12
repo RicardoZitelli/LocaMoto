@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  locamoto:
+    image: ${DOCKER_REGISTRY-}locamoto
+    build:
+      context: .
+      dockerfile: LocaMoto/Dockerfile
